@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: postgres_db
+    schema: public  # The schema where your table is located
+    tables:
+      - name: sales_data
